@@ -1,4 +1,3 @@
-
     //Constructor name letters and testing
     function Song(name) {
         this.name = name;
@@ -39,7 +38,6 @@
         maximus = new Song("Maximus"),
         bart = new Song("Bart"),
         fred = new Song("Fred");
-
     //Start Sing
     katie.songPlay();
     maximus.songPlay();
