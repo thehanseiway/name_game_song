@@ -13,7 +13,7 @@
             return bfmLetters;
         };
         var isVowel = function () {
-           var letterVowelTest = /[aeiouy]/i;
+           var letterVowelTest = /^[aeiouy]/i;
            if ( letterVowelTest.test(fnameLetter) ) {
                 nameSufix = fnameLetter + nameSufix;
            }
